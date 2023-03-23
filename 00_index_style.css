@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-size: 8em;
+  background-color: #ff3f3f;
+
+  /*border: 1px solid purple;*/
+
+}
+
+/*----------------고정 메뉴 -----------------------*/
+
+.POSITION_FIXED {
+  margin-top: 10px;
+  margin-left: 20px;
+
+  position: fixed;
+  z-index: 100;
+
+  font-family: 'futura';
+}
+
+.profile {
+  font-family: 'futura';
+  font-weight: bolder;
+  font-size: 1.2em;
+  color: #ffffff;
+  z-index: 10;
+}
+
+.WORK_CONTACT {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  line-height: 120px;
+
+  /*border: 1px solid green;*/
+}
+
+.fixed {
+  margin: 0;
+  display: inline-block;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 0.9em;
+  z-index: 11;
+  /*border: 1px solid blue;*/
+}
+
+
+/*----------------여기서부터 컨테이너 -----------------------*/
+.container {
+  position: relative;
+  height: auto;
+  /*border: 1px solid red;*/
+  /*border: 1px solid blue;*/
+}
+
+
+/*----------------여기서부터 바디 -----------------------*/
+.container-body{
+  position: relative;
+  display: flex;
+  /*background-color: blue; -> 메인 이미지 부분 영역 확인용*/
+
+  height: 3500px; /*메인 이미지들 있는 부분 영역*/
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  /*border: 1px solid green;*/
+}
+
+
+.profile_image {
+  position: relative;
+  height: auto;
+  margin-left: 100px;
+
+}
+
+.img-eye {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+.img-foot {
+  position: absolute;
+  left: 340px;
+  top: 300px;
+}
+.img-mouth {
+  position: absolute;
+  left: 100px;
+  top: 630px;
+}
+.img-hand-1 {
+  position: absolute;
+  left: 400px;
+  top: 1200px;
+}
+.img-hand-2 {
+  position: absolute;
+  left: 120px;
+  top: 1900px;
+  transform: rotate(-120deg);
+
+}
+.img-hand-3 {
+  position: absolute;
+  left: 30px;
+  top: 2200px;
+  transform: rotate(-150deg);
+}
+.img-hand-4 {
+  position: absolute;
+  left: 120px;
+  top: 2400px;
+  transform: rotate(-200deg);
+}
+
+.img-nose {
+  position: absolute;
+  left: 100px;
+  top: 1400px;
+}
+.img-eyebrow {
+  position: absolute;
+  left: 400px;
+  top: 2800px;
+}
+
+
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  position: absolute;
+  width: 100%;
+  left: 50px;
+  right: 0;
+  justify-content: space-between;
+
+  font-family: 'futura';
+
+  /*border: 1px solid blue;*/
+}
+
+/*--------------top으로 돌아가기--------------*/
+.item-backtohome{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: -18px;
+
+  /*border: 1px solid purple;*/
+}
+
+/*--------------저작권 표기--------------*/
+.item-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: #800000;
+  font-size: 0.8em;
+  margin-bottom: 50px;
+
+  /*border: 1px solid green;*/
+}
+
+p2 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}
+
+
+
+
+/*--------------link 설정 관련--------------*/
+a:link {
+  color: #8632E6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #8632E6;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #800000;/* #E032E6  #c04df9  #ff48c4*/;
+  background-color: transparent;
+  text-decoration: underline;
+}
