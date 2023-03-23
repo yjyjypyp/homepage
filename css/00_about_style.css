@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background: #060B17;
+}
+
+.container {
+  position: relative;/*viewport height*/
+  height: auto;
+  justify-content: space-between;
+  padding-top: 0%;
+}
+
+.title {
+  position: absolute;
+  font-family: 'futura';
+  font-weight: bolder;
+  font-size: 8em;
+  margin-top: 2%;
+  margin-left: 3%;
+  /*
+  z-index: 3;
+  */
+  color: #800000;
+}
+
+.close-icon {
+  position: fixed;
+  top: 70px;
+  right: 70px;
+  z-index: 4;
+  opacity: 20%;
+}
+
+.index-information {
+  height:2600px;
+  position: absolute;
+  margin-top: 450px;
+  margin-left: 70px;
+  z-index: 4;
+  font-weight: bold;
+}
+
+p0 {
+  color: #800000;
+  font-size: 0.95em;
+  font-family: 'futura';
+}
+
+.container-information {
+  height: 2300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 630px;
+  left: 25%;
+  right: 25%;
+  margin: auto;
+
+  font-family: 'futura';
+  font-size: 1.1em;
+  text-align: justify;
+}
+
+.INFO {
+  padding-bottom: 80px;
+  display: inline-block;
+  align-items: center;
+  padding-bottom: 2%;
+  justify-content: space-between;
+}
+
+p1 {
+  color: #A9A9A9;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #gray;
+  font-family: 'futura';
+}
+
+a:link {
+  color: #800000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #007F00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  position: absolute;
+  display: inline-block;
+  padding-top: 3500px;
+  
+  /*margin-bottom: 200px;*/
+  left: 0;
+  right: 0;
+
+  font-family: 'futura';
+}
+
+/*--------------home으로 돌아가기--------------*/
+.item-backtohome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/*--------------저작권 표기--------------*/
+.item-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #800000;
+  font-size: 0.8em;
+  margin-bottom: 50px;
+}
+
+p2, p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}
+p2, p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}

@@ -1,0 +1,180 @@
+
+.top-icons {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+body {
+  margin: 0;
+  background: #060B17;
+}
+
+.container {
+  height: auto; /*viewport height*/
+  justify-content: space-between;
+  padding-top: 0%;
+  position: relative;
+
+}
+
+.title {
+  position: absolute;
+  font-family: 'futura';
+  font-weight: bolder;
+  font-size: 8em;
+  margin-top: 60px;
+  margin-left: 60px;
+  z-index: 3;
+  color: #800000;
+  line-height: 150px;
+}
+
+.close-icon {
+  position: fixed;
+  top: 70px;
+  right: 70px;
+  z-index: 4;
+  opacity: 20%;
+}
+
+.main-image {
+  padding-bottom: 15%;
+}
+
+.body-image {
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2%;
+  justify-content: space-between;
+
+}
+
+
+.video {
+  display: flex;
+  height: 500px;
+}
+
+.STILLIMAGE {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item {
+  display: flex;
+  border: 1px solid red;
+}
+
+.img.grid-item.img-01 {
+  float: left;
+}
+
+.img.grid-item.img-05 {
+  float: left;
+}
+
+
+.index-information {
+  position: absolute;
+  margin-top: 750px;
+  margin-left: 70px;
+  z-index: 4;
+  font-weight: bold;
+}
+
+p1 {
+  font-weight: bold;
+}
+
+p0 {
+  color: #800000;
+  font-size: 0.95em;
+  font-family: 'futura';
+}
+
+.container-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 400px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+
+  font-family: 'futura';
+  font-size: 1.1em;
+  text-align: left; /* 본문 글씨 정렬 */
+}
+
+p1 {
+  color: #A9A9A9;
+  font-weight: lighter;
+}
+
+
+h2 {
+  color: #C0C0C0;
+  font-family: 'futura';
+  padding-bottom: 15px;
+}
+
+a:link {
+  color: #800000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #007F00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  position: absolute;
+  margin-top: 200px;
+  left: 0;
+  right: 0;
+
+  font-family: 'futura';
+}
+
+/*--------------home으로 돌아가기--------------*/
+.item-backtohome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/*--------------저작권 표기--------------*/
+.item-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #800000;
+  font-size: 0.8em;
+  margin-bottom: 50px;
+}
+
+p2, p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}

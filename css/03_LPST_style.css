@@ -1,0 +1,268 @@
+
+.top-icons {
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+body {
+  margin: 0;
+  background: #060B17;
+  height: auto;
+}
+
+.container {
+  height: auto; /*viewport height*/
+  justify-content: space-between;
+  padding-top: 0%;
+  padding-bottom: 10%;
+
+}
+
+.title {
+  position: absolute;
+  font-family: 'futura';
+  font-weight: bolder;
+  font-size: 8em;
+  margin-top: 60px;
+  margin-left:60px;
+  z-index: 3;
+  color: #800000;
+  line-height: 150px;
+}
+
+.close-icon {
+  position: fixed;
+  top: 70px;
+  right: 70px;
+  z-index: 4;
+  opacity: 20%;
+}
+
+.index-information {
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 70px;
+  z-index: 4;
+  font-weight: bold;
+}
+
+.container-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 400px;
+  padding-left: 25%;
+  padding-right: 25%;
+  margin: auto;
+
+  font-family: 'futura';
+  font-size: 1.1em;
+  text-align: left; /* 본문 글씨 정렬 */
+}
+
+.main-image {
+  padding-bottom: 15%;
+
+}
+
+.video {
+  margin-top: 50px;
+}
+
+.body-image {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2%;
+  justify-content: space-between;
+}
+
+.scenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+}
+
+.scenes-img {
+  width: 395px;
+  height: auto;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+  margin-top: -10px;
+}
+
+.card-img {
+  width: 395px;
+  height: auto;
+}
+
+.DISPLAY {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.display-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+}
+.display-items-img {
+  width: 395px;
+  height: auto;
+}
+
+
+.display-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 80px;
+}
+
+.display-card-img {
+  width: 195px;
+  height: auto;
+}
+
+.BOOK_for_text {
+  text-align: left;
+}
+
+.book {
+  text-align: center;
+}
+
+.book-cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+.book-cover-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.book-format-A {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+.book-format-A-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+.book-format-B {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 50px;
+}
+.book-format-B-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+.book-format-AA {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.book-format-AA-img {
+  width: 395px;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+
+p0 {
+  color: #800000;
+  font-size: 0.95em;
+  font-family: 'futura';
+}
+
+
+p1 {
+  color: #A9A9A9;
+  font-weight: lighter;
+}
+
+h2 {
+  color: #C0C0C0;
+  font-family: 'futura';
+  padding-bottom: 15px;
+}
+
+a:link {
+  color: #800000;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #007F00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  position: absolute;
+  margin-top: 200px;
+  left: 0;
+  right: 0;
+
+  font-family: 'futura';
+}
+
+/*--------------home으로 돌아가기--------------*/
+.item-backtohome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/*--------------저작권 표기--------------*/
+.item-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #800000;
+  font-size: 0.8em;
+  margin-bottom: 50px;
+}
+
+p2, p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}
+
+}

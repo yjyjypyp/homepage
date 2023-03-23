@@ -1,0 +1,115 @@
+
+body {
+  margin: 0;
+  background: #060B17;
+  font-family: 'futura';
+}
+
+.container {
+  position: relative;
+  height: 90vh;
+
+}
+
+.title {
+  position: absolute;
+  font-family: 'futura';
+  font-weight: bolder;
+  font-size: 8em;
+  margin-top: 2%;
+  margin-left: 3%;
+  /*
+  z-index: 3;
+  */
+  color: #800000;
+}
+
+.close-icon {
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  z-index: 4;
+  opacity: 20%;
+}
+
+
+.container-information {
+  position: relative;
+  height: 0;
+}
+
+.about {
+  position: absolute;
+  height: auto;
+  z-index: 1;
+  left: 25%;
+  right: 25%;
+  margin: auto;
+  top: 400px;
+}
+
+p1 {
+  color: #A9A9A9;
+}
+
+h2 {
+  color: #C0C0C0;
+  font-family: 'futura';
+}
+
+a:link {
+  color: #A9A9A9;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #C0C0C0;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #007F00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/*--------------BOTTOM--------------*/
+.BOTTOM {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 80px;
+
+  font-family: 'futura';
+}
+
+/*--------------home으로 돌아가기--------------*/
+.item-backtohome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/*--------------저작권 표기--------------*/
+.item-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #800000;
+  font-size: 0.8em;
+  margin-bottom: 50px;
+}
+
+p2, p4 {
+  color: #800000;
+  font-size: 12px;
+}
+
+p3 {
+  color: #800000;
+  font-size: 20px;
+  font-family: 'futura';
+  font-weight: bold;
+}
+å
